@@ -1,2 +1,2 @@
-# lol-metea-site
+# lol-meta-site
 Public
