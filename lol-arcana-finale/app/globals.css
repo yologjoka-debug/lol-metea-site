@@ -1,0 +1,39 @@
+
+:root{
+  --violet:#7c3aed;
+  --gold:#facc15;
+  --blue:#38bdf8;
+  --green:#22c55e;
+}
+.arcana-bg{
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(124,58,237,.25), transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(56,189,248,.25), transparent 40%),
+    radial-gradient(circle at 40% 80%, rgba(34,197,94,.25), transparent 40%),
+    linear-gradient(160deg,#050508,#0b0614,#03121a);
+  color:white;
+  font-family:sans-serif;
+}
+.arcana-card{
+  backdrop-filter: blur(14px);
+  background: linear-gradient(135deg, rgba(124,58,237,.15), rgba(250,204,21,.08));
+  border:1px solid rgba(250,204,21,.25);
+  border-radius:20px;
+  padding:20px;
+}
+.arcana-title{
+  font-size:30px;
+  font-weight:900;
+  background:linear-gradient(90deg,var(--violet),var(--gold),var(--blue),var(--green));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.arcana-btn{
+  background:linear-gradient(90deg,var(--violet),var(--blue));
+  border:1px solid var(--gold);
+  color:white;
+  padding:12px 18px;
+  border-radius:14px;
+  font-weight:700;
+}
